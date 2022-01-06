@@ -2,26 +2,13 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>SLOT MACHINES</h1>
-                <Machine 
-                s1="🍊"
-                s2="🍇"
-                s3="🍎"
+                <Friend
+                    name="Elton"
+                    hobbies={['Piano', 'Singing', 'Dancing']}
                 />
-                <Machine 
-                s1="🍊"
-                s2="🍇"
-                s3="🍎"
-                />
-                <Machine 
-                s1="🍇"
-                s2="🍇"
-                s3="🍇"
-                />
-                <Machine 
-                s1="🍊"
-                s2="🍎"
-                s3="🍊"
+                <Friend
+                    name="Frida"
+                    hobbies={['Drawing', 'Painting']}
                 />
             </div>
         )
