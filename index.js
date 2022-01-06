@@ -2,13 +2,17 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Friend
-                    name="Elton"
-                    hobbies={['Piano', 'Singing', 'Dancing']}
+                <Hello
+                    to="Ringo"
+                    from="Paul"
+                    bangs={4}
                 />
-                <Friend
-                    name="Frida"
-                    hobbies={['Drawing', 'Painting']}
+                <Hello
+                    to="George"
+                    bangs={4}
+                />
+                <Hello
+                    to="John"
                 />
             </div>
         )
